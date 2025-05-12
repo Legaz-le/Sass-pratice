@@ -27,37 +27,6 @@ img {
   max-width: 100%;
 }
 
-@media (min-width: 0) {
-  .responsive-test {
-    color: red;
-  }
-}
-@media (min-width: 480px) {
-  .responsive-test {
-    color: blue;
-  }
-}
-@media (min-width: 720px) {
-  .responsive-test {
-    color: green;
-  }
-}
-@media (min-width: 960px) {
-  .responsive-test {
-    color: purple;
-  }
-}
-@media (min-width: 1200px) {
-  .responsive-test {
-    color: orange;
-  }
-}
-@media (min-width: 1400px) {
-  .responsive-test {
-    color: pink;
-  }
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -318,11 +287,11 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #326dee;
-  color: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+  color: light-comp(#326dee);
 }
 .btn-complement-primary:hover {
   color: #326dee;
-  background-color: rgb(249.7162162162, 231.3783783784, 191.2837837838);
+  background-color: light-comp(#326dee);
 }
 
 .btn-secondary {
@@ -414,11 +383,11 @@ img {
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
   background-color: #9900ff;
-  color: rgb(193.8, 255, 153);
+  color: light-comp(#9900ff);
 }
 .btn-complement-purple:hover {
   color: #9900ff;
-  background-color: rgb(193.8, 255, 153);
+  background-color: light-comp(#9900ff);
 }
 
 .navbar .container, .navbar-secondary .container, .navbar, .navbar-secondary {
